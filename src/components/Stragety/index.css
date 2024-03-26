@@ -1,0 +1,22 @@
+.videocard{
+    display: flex;
+}
+.videotemplate{
+    margin: 15px;
+    height: 200px;
+    width: 550px;
+}
+@media screen and (max-width: 992px){
+    .videocard{
+        flex-direction: column;
+    }
+    .videocard iframe{
+        width: 95%;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 763px){
+    .videocard iframe{
+        height: 200px;
+    }
+}

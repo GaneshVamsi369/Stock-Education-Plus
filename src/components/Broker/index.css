@@ -1,0 +1,22 @@
+.reviewslist{
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 40px;
+}
+.reviewslist li{
+    padding: 8px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 8px 10px 5px #484747;
+}
+.loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+span{
+    font-weight: 700;
+    font-size: 17px;
+}
